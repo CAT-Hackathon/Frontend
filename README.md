@@ -17,7 +17,7 @@
     bun dev
 3. *Preview The Project*:
     ```bash
-    http://localhost:3000
+    http://localhost:5173
 ## Frontend Developed By:
 [Ihab Mahmoud](https://eh-ihabmahmoud.netlify.app/)
 [Nabil Mohamed](https://github.com/N0ble-dev)
