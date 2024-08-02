@@ -20,6 +20,7 @@ body{
     font-size: 14px;
     color: white;
     transition: 0.3s linear;
+    text-wrap: nowrap;
 }
 .btnPrimary:hover{
     background-color: white;

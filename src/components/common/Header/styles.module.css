@@ -7,3 +7,31 @@
 .navLinks a:hover{
     color: var(--primary-color);   
 }
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .header{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .header{
+        padding: 1rem;
+    }
+    .navLinks{
+        position: absolute;
+        height: calc(100vh - 90px);
+        width: 100%;
+        top: 90px;
+        left: -100%;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: start;
+        gap: 1.5rem;
+        background-color: white;
+        padding:2rem 1rem;
+        transition: 0.3s linear;
+    }
+    .navLinks a:hover{
+        transform: translateX(0.5rem);   
+    }
+}
