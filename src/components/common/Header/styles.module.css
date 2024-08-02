@@ -1,0 +1,9 @@
+.navLinks a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    transition: 0.2s linear;
+}
+.navLinks a:hover{
+    color: var(--primary-color);   
+}
