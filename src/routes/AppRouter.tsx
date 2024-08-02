@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { MainLayout } from "#layouts/index";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <p>Main Layout</p>,
+    element: <MainLayout />,
     errorElement: <p>Error</p>,
     children: [
       {
