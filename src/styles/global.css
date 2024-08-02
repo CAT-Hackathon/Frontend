@@ -6,6 +6,9 @@
 
 :root{
     --primary-color: #0B7BFF;
+    --secondary-color:#113573;
+    --primary-text:#B7B7B7;
+    --baby-blue:#4B97F4;
 }
 
 body{
@@ -25,4 +28,22 @@ body{
 .btnPrimary:hover{
     background-color: white;
     color: var(--primary-color);
+}
+
+.gradientBtn{
+    border-radius: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--baby-blue) 100%);
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    color: white;
+    transition: all 0.3s linear;
+    border: 2px solid var(--secondary-color);
+    
+}
+.gradientBtn:hover{
+    background: #113573;
+    border-color:var(--baby-blue);
 }

@@ -1,4 +1,4 @@
-import { Header } from "#components/index";
+import { Header, Footer } from "#components/common/index";
 import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
@@ -7,7 +7,7 @@ const MainLayout = () => {
     <div className="mt-8">
         <Outlet />
     </div>
-    {/* Footer */}
+    <Footer />
   </div>;
 };
 
